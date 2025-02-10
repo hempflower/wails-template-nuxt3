@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
+  ssr: false,
   // IMPORTANT: when run wails dev, nitro delete the .output folder, it cause generate binding error
   // https://github.com/nuxt/nuxt/issues/29841
   nitro: {
